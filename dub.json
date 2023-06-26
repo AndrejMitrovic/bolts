@@ -12,9 +12,6 @@
     },
 	"configurations": [
 		{
-			"dflags": [
-				"-mixin=mixins.txt"
-			],
 			"name": "unittest",
 			"targetType": "library"
 		}
