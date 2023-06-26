@@ -22,6 +22,7 @@ import std.format;
 import std.meta;
 import std.range : iota;
 import std.traits : functionAttributes, FunctionAttribute;
+static import std.traits;
 
 // Do not require caller module to import 'std.traits'. Instead use our own
 // aliases in mixtures.
